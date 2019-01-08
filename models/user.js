@@ -1,7 +1,7 @@
 const Connector = require('../config/connector');
 const Sequelize = require('sequelize');
 
-const User = CONNECTOR.define('users', {
+const User = Connector.define('users', {
     username: {
         type: Sequelize.STRING
     },
